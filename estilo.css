@@ -1,0 +1,61 @@
+ form {
+      width: 400px;
+      margin: 20px auto;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    fieldset {
+      border: none;
+    }
+
+    legend {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 5px;
+      /*border: 1px solid #ccc;*/
+    }
+
+    input:focus {
+      outline: none;
+      border-color: white;
+    }
+
+    input:invalid {
+      border-color: pink;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: pink;
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(193, 127, 138);
+    }
+
+    .error {
+      color: rgb(246, 193, 193);
+      font-weight: bold;
+    }
+
+    .success {
+      color: rgb(255, 180, 241);
+      font-weight: bold;
+    }
+  
